@@ -7,8 +7,8 @@ __pycache__/
 *.so
 
 # Aridia-related files
-model.p
-dataset.pickle
+output_data/
+dataset/
 
 # Distribution / packaging
 .Python
