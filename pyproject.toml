@@ -1,0 +1,14 @@
+[project]
+name = "aridia-ml"
+version = "0.1.0"
+description = "Aridia ML is a blazingly fast sign language detector and translator"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]==0.115.5",
+    "mediapipe==0.10.18",
+    "opencv-python==4.10.0.84",
+    "ruff==0.8.0",
+    "scikit-learn==1.5.2",
+    "typer==0.13.1",
+]
